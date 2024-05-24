@@ -19,7 +19,7 @@ print(torch.cuda.is_available())
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--pretrained', default=True, type=bool)
-parser.add_argument('--project_dir', default='/home/meow/my_data_disk_5T/eeg-image/THINGS-EEG/NICE-EEG/Data/Things-EEG2/Image_set', type=str)
+parser.add_argument('--project_dir', default='./THINGS-EEG/MUSE_EEG/Data/Things-EEG2/Image_set', type=str)
 args = parser.parse_args()
 
 print('Extract feature maps CLIP of images for center <<<')
@@ -37,7 +37,7 @@ model = CLIPModel.from_pretrained("openai/clip-vit-large-patch14")
 model = model.cuda()
 model = nn.DataParallel(model, device_ids=[i for i in range(len(gpus))])
 
-with open('/home/meow/my_data_disk_5T/eeg-image/THINGS-EEG/NICE-EEG/model/CLIP_img_ViT_info.txt', 'w') as file:
+with open('./THINGS-EEG/MUSE_EEG/model/CLIP_img_ViT_info.txt', 'w') as file:
     print(model, file=file)
 
 processor = CLIPProcessor.from_pretrained("openai/clip-vit-large-patch14")

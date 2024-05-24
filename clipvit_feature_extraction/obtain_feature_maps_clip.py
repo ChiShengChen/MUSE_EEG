@@ -19,7 +19,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = ','.join(map(str, gpus))
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--pretrained', default=True, type=bool)
-parser.add_argument('--project_dir', default='/home/meow/my_data_disk_5T/eeg-image/THINGS-EEG/NICE-EEG/Data/Things-EEG2/', type=str)
+parser.add_argument('--project_dir', default='./THINGS-EEG/MUSE_EEG/Data/Things-EEG2/', type=str)
 args = parser.parse_args()
 
 print('Extract feature maps CLIP <<<')

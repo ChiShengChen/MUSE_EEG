@@ -2,9 +2,9 @@ import os
 import shutil
 import numpy as np
 
-things_path = '/home/meow/my_data_disk_5T/eeg-image/THINGS-EEG/NICE-EEG/Data/THINGS/Images/'
-things_eeg_test_images_path = '/home/meow/my_data_disk_5T/eeg-image/THINGS-EEG/NICE-EEG/Data/Things-EEG2/Image_set/image_set/test_images/'
-things_eeg_center_images_path = '/home/meow/my_data_disk_5T/eeg-image/THINGS-EEG/NICE-EEG/Data/Things-EEG2/Image_set/image_set/center_images/'
+things_path = './THINGS-EEG/MUSE_EEG/Data/THINGS/Images/'
+things_eeg_test_images_path = './THINGS-EEG/MUSE_EEG/Data/Things-EEG2/Image_set/image_set/test_images/'
+things_eeg_center_images_path = './THINGS-EEG/MUSE_EEG/Data/Things-EEG2/Image_set/image_set/center_images/'
 
 things_list = os.listdir(things_path)[6:]
 things_list.sort()

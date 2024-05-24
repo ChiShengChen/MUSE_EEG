@@ -38,8 +38,8 @@ gpus = [0]
 os.environ['CUDA_DEVICE_ORDER'] = 'PCI_BUS_ID'
 os.environ["CUDA_VISIBLE_DEVICES"] = ','.join(map(str, gpus))
 # result_path = '/home/NICE/results/' 
-result_path = '/home/meow/my_data_disk_5T/eeg-image/THINGS-EEG/NICE-EEG/results/' 
-model_path = '/home/meow/my_data_disk_5T/eeg-image/THINGS-EEG/NICE-EEG/model/' 
+result_path = './THINGS-EEG/MUSE_EEG/results/' 
+model_path = './THINGS-EEG/MUSE_EEG/model/' 
 
 model_idx = 'test0'
  
@@ -88,7 +88,7 @@ class IE():
 
         self.model_idx = 'test0_' + str(self.nSub) + '_'
 
-        local_path = '/home/meow/my_data_disk_5T/eeg-image/THINGS-EEG/NICE-EEG/'
+        local_path = './THINGS-EEG/MUSE_EEG/'
 
         self.start_epoch = 0
         self.eeg_data_path = local_path + 'Data/Things-EEG2/Preprocessed_data_250Hz/'

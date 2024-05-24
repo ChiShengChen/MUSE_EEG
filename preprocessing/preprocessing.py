@@ -40,7 +40,7 @@ parser.add_argument('--sub', default=9, type=int)
 parser.add_argument('--n_ses', default=4, type=int)
 parser.add_argument('--sfreq', default=250, type=int)
 parser.add_argument('--mvnn_dim', default='epochs', type=str)
-parser.add_argument('--project_dir', default='/home/meow/my_data_disk_5T/eeg-image/THINGS-EEG/NICE-EEG/Data/Things-EEG2/', type=str)
+parser.add_argument('--project_dir', default='./THINGS-EEG/MUSE_EEG/Data/Things-EEG2/', type=str)
 args = parser.parse_args()
 
 print('>>> EEG data preprocessing <<<')
