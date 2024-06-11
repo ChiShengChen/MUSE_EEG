@@ -17,3 +17,20 @@ self-batch similarity of the input modal data.
 
 ## Reference
 The code is modified based on [NICE_EEG](https://github.com/eeyhsong/NICE-EEG).
+
+## Citation
+Hope this code is helpful. I would appreciate you citing us in your paper, arXiv now unexpected on-hold.
+```
+@misc{chen2024eegsk,
+  title = {Mind's Eye: Image Recognition by EEG via Multimodal Similarity-Keeping Contrastive Learning},
+  author = {Chen, Chi-Sheng and Wei, Chun-Shu},
+  year = {2024},
+  month = Jun,
+  number = {arXiv:submit/5643879},
+  eprint = {on-hold},
+  primaryclass = {cs, eess, cv},
+  publisher = {{arXiv}},
+  doi = {},
+  archiveprefix = {arxiv}
+}
+```
