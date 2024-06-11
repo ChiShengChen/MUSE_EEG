@@ -1,5 +1,6 @@
 # MUSE_EEG
 The official repository implement of Mind's Eye: Image Recognition by EEG via Multimodal Similarity-Keeping Contrastive Learning (arXiv unexpected on-hold, submit/5643879).  
+You can find the paper temparally from [here](https://www.linkedin.com/posts/michael-chi-sheng-chen-257359137_i-am-honored-to-share-with-you-our-new-paper-activity-7206348296766803968-UdtB?utm_source=share&utm_medium=member_desktop).
 We provide new types of EEG encoders and Similarity-Keeping Contrastive Learning framework to reach the SOTA on EEG-image zero-shot classification task.
 ![paper_img_eeg_music_com_c](https://github.com/ChiShengChen/MUSE_EEG/assets/22126443/5099f629-4461-4455-99e2-220f6c9cedf2)
 
