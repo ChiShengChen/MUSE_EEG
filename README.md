@@ -11,5 +11,7 @@ We provide new types of EEG encoders and Similarity-Keeping Contrastive Learning
 
 ## Performance
 ![MUSE_top1](https://github.com/ChiShengChen/MUSE_EEG/assets/22126443/42c02c49-9f00-4729-89d9-8235b6051a41)
-
 ![MUSE_top5](https://github.com/ChiShengChen/MUSE_EEG/assets/22126443/b4f458c2-4003-4ed5-9cd8-91731e4e8a59)
+
+## Reference
+The code is modified based on [NICE_EEG](https://github.com/eeyhsong/NICE-EEG).
