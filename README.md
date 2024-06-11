@@ -1,5 +1,5 @@
 # MUSE_EEG
-The official repository implement of Mind's Eye: Image Recognition by EEG via Multimodal Similarity-Keeping Contrastive Learning (arXiv unexpected on-hold, submit/5643879).
+The official repository implement of Mind's Eye: Image Recognition by EEG via Multimodal Similarity-Keeping Contrastive Learning (arXiv unexpected on-hold, submit/5643879).  
 We provide new types of EEG encoders and Similarity-Keeping Contrastive Learning framework to reach the SOTA on EEG-image zero-shot classification task.
 ![paper_img_eeg_music_com_c](https://github.com/ChiShengChen/MUSE_EEG/assets/22126443/5099f629-4461-4455-99e2-220f6c9cedf2)
 
