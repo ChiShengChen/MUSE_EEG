@@ -37,9 +37,9 @@ Hope this code is helpful. I would appreciate you citing us in your paper, arXiv
   author = {Chen, Chi-Sheng and Wei, Chun-Shu},
   year = {2024},
   month = Jun,
-  number = {arXiv:submit/5643879},
-  eprint = {on-hold},
-  primaryclass = {cs, eess, cv},
+  number = {arXiv:2406.16910},
+  eprint = {2406.16910},
+  primaryclass = {cs, eess, q-bio},
   publisher = {{arXiv}},
   doi = {},
   archiveprefix = {arxiv}
