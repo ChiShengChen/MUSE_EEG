@@ -41,7 +41,7 @@ Hope this code is helpful. I would appreciate you citing us in your paper, arXiv
   eprint = {2406.16910},
   primaryclass = {cs, eess, q-bio},
   publisher = {{arXiv}},
-  doi = {},
+  doi = {10.48550/arXiv.2406.16910},
   archiveprefix = {arxiv}
 }
 ```
