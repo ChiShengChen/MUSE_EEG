@@ -59,7 +59,7 @@ many thanks for sharing good datasets!
 
 ## Training and testing
 ### Script path
-- `./muse_stand.py`
+- `./model/main_train.py`
 
 ## Reference
 The code is modified based on [NICE_EEG](https://github.com/eeyhsong/NICE-EEG).
