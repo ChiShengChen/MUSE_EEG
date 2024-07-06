@@ -66,17 +66,7 @@ The code is modified based on [NICE_EEG](https://github.com/eeyhsong/NICE-EEG).
 
 ## Citation
 Hope this code is helpful. I would appreciate you citing us in your paper, and the github.
-```
-@misc{chen2024muse_eeg,
-  author = {Chi-Sheng Chen},
-  title = {MUSE_EEG},
-  year = {2024},
-  version = {1.0},
-  publisher = {GitHub},
-  howpublished = {\url{https://github.com/ChiShengChen/MUSE_EEG}},
-}
 
-```
 ```
 @misc{chen2024eegsk,
   title = {Mind's Eye: Image Recognition by EEG via Multimodal Similarity-Keeping Contrastive Learning},
