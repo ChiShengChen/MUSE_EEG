@@ -43,7 +43,7 @@ many thanks for sharing good datasets!
   
 ## Image features from pre-trained models
 ### Script path
-- `./dnn_feature_extraction/`
+- `./clipvit_feature_extraction/`
 ### Data path (follow the original dataset setting)
 - raw image: `./Data/Things-EEG2/Image_set/image_set/`
 - preprocessed eeg data: `./Data/Things-EEG2/Preprocessed_data/`
