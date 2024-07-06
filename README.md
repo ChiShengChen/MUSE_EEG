@@ -15,6 +15,52 @@ self-batch similarity of the input modal data.
 ![MUSE_top1](https://github.com/ChiShengChen/MUSE_EEG/assets/22126443/42c02c49-9f00-4729-89d9-8235b6051a41)
 ![MUSE_top5](https://github.com/ChiShengChen/MUSE_EEG/assets/22126443/b4f458c2-4003-4ed5-9cd8-91731e4e8a59)
 
+
+## Datasets
+many thanks for sharing good datasets!
+1. [Things-EEG2](https://www.sciencedirect.com/science/article/pii/S1053811922008758?via%3Dihub)
+2. [Things-MEG](https://elifesciences.org/articles/82580) (updating)
+
+## EEG pre-processing
+### Script path
+- `./preprocessing/`
+### Data path 
+- raw data: `./Data/Things-EEG2/Raw_data/`
+- proprocessed eeg data: `./Data/Things-EEG2/Preprocessed_data_250Hz/`
+### Steps
+1. pre-processing EEG data of each subject
+   - modify `preprocessing_utils.py` as you need.
+     - choose channels
+     - epoching
+     - baseline correction
+     - resample to 250 Hz
+     - sort by condition
+     - Multivariate Noise Normalization (z-socre is also ok)
+   - `python preprocessing.py` for each subject. 
+
+2. get the center images of each test condition (for testing, contrast with EEG features)
+   - get images from original Things dataset but discard the images used in EEG test sessions.
+  
+## Image features from pre-trained models
+### Script path
+- `./dnn_feature_extraction/`
+### Data path (follow the original dataset setting)
+- raw image: `./Data/Things-EEG2/Image_set/image_set/`
+- preprocessed eeg data: `./Data/Things-EEG2/Preprocessed_data/`
+- features of each images: `./Data/Things-EEG2/DNN_feature_maps/full_feature_maps/model/pretrained-True/`
+- features been packaged: `./Data/Things-EEG2/DNN_feature_maps/pca_feature_maps/model/pretrained-True/`
+- features of condition centers: `./Data/Things-EEG2/Image_set/`
+### Steps
+1. obtain feature maps with each pre-trained model with `obtain_feature_maps_xxx.py` (clip, vit, resnet...)
+2. package all the feature maps into one .npy file with `feature_maps_xxx.py`
+3. obtain feature maps of center images with `center_fea_xxx.py`
+   - save feature maps of each center image into `center_all_image_xxx.npy`
+   - save feature maps of each condition into `center_xxx.npy` (used in training)
+
+## Training and testing
+### Script path
+- `./muse_stand.py`
+
 ## Reference
 The code is modified based on [NICE_EEG](https://github.com/eeyhsong/NICE-EEG).
 
