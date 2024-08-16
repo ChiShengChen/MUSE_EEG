@@ -13,8 +13,11 @@ self-batch similarity of the input modal data.
 ![paper_img_model_c](https://github.com/ChiShengChen/MUSE_EEG/assets/22126443/bd584de7-87e1-486e-8344-0b88f8301fda)
 
 ## Performance
-![MUSE_top1](https://github.com/ChiShengChen/MUSE_EEG/assets/22126443/42c02c49-9f00-4729-89d9-8235b6051a41)
-![MUSE_top5](https://github.com/ChiShengChen/MUSE_EEG/assets/22126443/b4f458c2-4003-4ed5-9cd8-91731e4e8a59)
+<!-- ![MUSE_top1](https://github.com/ChiShengChen/MUSE_EEG/assets/22126443/42c02c49-9f00-4729-89d9-8235b6051a41) -->
+<!-- ![MUSE_top5](https://github.com/ChiShengChen/MUSE_EEG/assets/22126443/b4f458c2-4003-4ed5-9cd8-91731e4e8a59) -->
+
+<img width="1075" alt="image" src="https://github.com/user-attachments/assets/61cf51a3-078c-437e-a01b-3ed4e33ed597">
+
 
 
 ## Datasets
