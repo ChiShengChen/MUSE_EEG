@@ -21,6 +21,10 @@ self-batch similarity of the input modal data.
 many thanks for sharing good datasets!
 1. [Things-EEG2](https://www.sciencedirect.com/science/article/pii/S1053811922008758?via%3Dihub)
 
+The data we use is "Raw EEG data" in https:/doi.org/10.17605/OSF.IO/3JK45 .  
+<img width="523" alt="image" src="https://github.com/user-attachments/assets/2a64602f-7c29-434e-a5d7-3bcbb50cb1df">  
+
+
 
 ## EEG pre-processing
 ### Script path
