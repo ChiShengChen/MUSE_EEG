@@ -17,7 +17,8 @@ self-batch similarity of the input modal data.
 <!-- ![MUSE_top5](https://github.com/ChiShengChen/MUSE_EEG/assets/22126443/b4f458c2-4003-4ed5-9cd8-91731e4e8a59) -->
 
 <img width="1075" alt="image" src="https://github.com/user-attachments/assets/61cf51a3-078c-437e-a01b-3ed4e33ed597">
-![image](https://github.com/user-attachments/assets/5e54d4ca-3acb-4fca-902d-2cb92b8f99f5)
+![image](https://github.com/user-attachments/assets/e51d4ba9-e70e-4c0d-8b2b-069ff933c569)
+
 
 
 
