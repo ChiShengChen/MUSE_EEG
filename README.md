@@ -44,7 +44,7 @@ The data we use is "Raw EEG data" in [here](https:/doi.org/10.17605/OSF.IO/3JK45
      - resample to 250 Hz
      - sort by condition
      - Multivariate Noise Normalization (z-socre is also ok)
-   - `python preprocessing.py` for each subject.
+   - `python preprocessing.py` for each subject (run by per subject), note that need to modified the default `parser.add_argument('--sub', default=<Your_Subject_Want_to_Preprocessing>, type=int)`.
    - The output files will svaed in `./Data/Things-EEG2/Preprocessed_data_250Hz/`.
 
 2. get the center images of each test condition (for testing, contrast with EEG features)
