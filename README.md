@@ -55,7 +55,7 @@ The data we use is "Raw EEG data" in [here](https:/doi.org/10.17605/OSF.IO/3JK45
 - `./clipvit_feature_extraction/`
 ### Data path (follow the original dataset setting)
 - raw image: `./Data/Things-EEG2/Image_set/image_set/`
-- preprocessed eeg data: `./Data/Things-EEG2/Preprocessed_data/`
+- preprocessed eeg data: `./Data/Things-EEG2/Preprocessed_data_250Hz/`
 - features of each images: `./Data/Things-EEG2/DNN_feature_maps/full_feature_maps/model/pretrained-True/`
 - features been packaged: `./Data/Things-EEG2/DNN_feature_maps/pca_feature_maps/model/pretrained-True/`
 - features of condition centers: `./Data/Things-EEG2/Image_set/`
