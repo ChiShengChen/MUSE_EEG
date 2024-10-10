@@ -73,6 +73,10 @@ The data we use is "Raw EEG data" in [here](https:/doi.org/10.17605/OSF.IO/3JK45
 ### Script path
 - `./model/main_train.py`
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ChiShengChen/MUSE_EEG&type=Date)](https://star-history.com/#ChiShengChen/MUSE_EEG&Date)
+
 ## Reference
 The code is modified based on [NICE_EEG](https://github.com/eeyhsong/NICE-EEG).
 
