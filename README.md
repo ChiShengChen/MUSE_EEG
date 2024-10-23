@@ -84,16 +84,11 @@ The code is modified based on [NICE_EEG](https://github.com/eeyhsong/NICE-EEG).
 Hope this code is helpful. I would appreciate you citing us in your paper, and the github.
 
 ```
-@misc{chen2024eegsk,
-  title = {Mind's Eye: Image Recognition by EEG via Multimodal Similarity-Keeping Contrastive Learning},
-  author = {Chen, Chi-Sheng and Wei, Chun-Shu},
-  year = {2024},
-  month = Jun,
-  number = {arXiv:2406.16910},
-  eprint = {2406.16910},
-  primaryclass = {cs, eess, q-bio},
-  publisher = {{arXiv}},
-  doi = {10.48550/arXiv.2406.16910},
-  archiveprefix = {arxiv}
+@article{chen2024mind,
+  title={Mind's Eye: Image Recognition by EEG via Multimodal Similarity-Keeping Contrastive Learning},
+  author={Chen, Chi-Sheng and Wei, Chun-Shu},
+  journal={arXiv preprint arXiv:2406.16910},
+  year={2024}
 }
+
 ```
