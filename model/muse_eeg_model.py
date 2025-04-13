@@ -80,9 +80,6 @@ class STConvEEGModel(nn.Module):
 
     def forward(self, x):  
         x = self.stconv(x)
-        #####MUSE-GA######
-        # x = self.gatnn(x)
-        ##################
         output_features = self.projection(x)
 
         return output_features
