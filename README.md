@@ -73,6 +73,11 @@ The data we use is "Raw EEG data" in [here](https://osf.io/3jk45/).
 ### Script path
 - `./model/main_train.py`
 
+## Folder Structure
+
+<img width="465" alt="image" src="https://github.com/user-attachments/assets/9291e2ba-bdc6-449f-96a9-42348de0f025" />
+
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=ChiShengChen/MUSE_EEG&type=Date)](https://star-history.com/#ChiShengChen/MUSE_EEG&Date)
